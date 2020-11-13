@@ -1,0 +1,1 @@
+- Research Signals for direct control: https://apps-sdk-v2.developer.athom.com/tutorial-Signals.html

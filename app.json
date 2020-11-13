@@ -1,0 +1,70 @@
+{
+  "id": "com.programyourhome.homey",
+  "version": "0.0.1",
+  "compatibility": ">=4.2.0",
+  "sdk": 2,
+  "brandColor": "#006400",
+  "name": {
+    "en": "Sparrenlaan 37"
+  },
+  "description": {
+    "en": "Smart Home - Sparrenlaan 37"
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [
+    "homey:manager:geolocation",
+    "homey:manager:ledring",
+    "homey:manager:media",
+    "homey:manager:speech-input",
+    "homey:manager:speech-output",
+    "homey:wireless:433",
+    "homey:wireless:868",
+    "homey:wireless:ir",
+    "homey:wireless:zwave",
+    "homey:wireless:zigbee",
+    "homey:wireless:nfc",
+    "homey:manager:api",
+    "homey:wireless:ble"
+  ],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Erik Mulder",
+    "email": "ewjmulder@yahoo.com"
+  },
+  "flow": {
+    "actions": [
+      {
+        "id": "switch_pressed",
+        "title": {
+          "en": "Switch Pressed"
+        },
+        "args": [
+          {
+            "type": "dropdown",
+            "name": "switchName",
+            "values": [
+              {
+                "id": "master_bedroom__bed",
+                "label": {
+                  "en": "Master Bedroom - Bed"
+                }
+              },
+              {
+                "id": "master_bedroom__wall",
+                "label": {
+                  "en": "Master Bedroom - Wall"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "com.programyourhome.homey",
+  "version": "0.0.1",
+  "main": "app.js",
+  "dependencies": {
+    "node-hue-api": "^4.0.9"
+  },
+  "devDependencies": {
+    "homey": "^2.8.0"
+  }
+}
