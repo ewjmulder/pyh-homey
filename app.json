@@ -49,15 +49,39 @@
             "name": "switchName",
             "values": [
               {
-                "id": "master_bedroom__bed",
+                "id": "test_switch",
                 "label": {
-                  "en": "Master Bedroom - Bed"
+                  "en": "Test Switch"
+                }
+              },
+              {
+                "id": "test_button_1",
+                "label": {
+                  "en": "Test Button 1"
+                }
+              },
+              {
+                "id": "test_button_2",
+                "label": {
+                  "en": "Test Button 2"
                 }
               },
               {
                 "id": "master_bedroom__wall",
                 "label": {
                   "en": "Master Bedroom - Wall"
+                }
+              },
+              {
+                "id": "toilet_downstairs",
+                "label": {
+                  "en": "Toilet Downstairs"
+                }
+              },
+              {
+                "id": "toilet_upstairs",
+                "label": {
+                  "en": "Toilet Upstairs"
                 }
               }
             ]

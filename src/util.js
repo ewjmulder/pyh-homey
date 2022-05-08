@@ -6,4 +6,7 @@ module.exports = {
     log: function (any) { },
 
     // ************************* OTHER UTIL ***************************
+    sleep: function(millis) {
+        return new Promise(resolve => setTimeout(resolve, millis));
+    }
 };
